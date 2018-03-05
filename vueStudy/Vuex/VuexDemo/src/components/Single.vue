@@ -7,18 +7,17 @@
 
 <script>
 export default {
-  // state
-  data () {
-    return {
-      count: 0
+    // state
+    data() {
+        return {
+            count: 0
+        }
+    },
+    // actions
+    methods: {
+        increment() {
+            this.count++
+        }
     }
-  },
-  // actions
-  methods: {
-    increment () {
-      this.count++
-    }
-  }
 }
-
 </script>
